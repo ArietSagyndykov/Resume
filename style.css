@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+navbar {
+  height: 40px;
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-left: 75px;
+  align-items: center;
+  position: relative;
+  top: 20px;
+}
+.navbar_icons {
+  height: 32px;
+  width: 180px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navbar_text {
+  height: 25px;
+  width: 320px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.section-1 {
+  width: 100%;
+  height: 750px;
+  background-image: url("./images/section1\ bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  bottom: 30px;
+}
+navbar span {
+  color: white;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.section1_headline {
+  height: 230px;
+  width: 430px;
+  position: relative;
+  top: 270px;
+  left: 100px;
+}
+.section1_headline p {
+  color: white;
+  font-family: Inter;
+  font-weight: bold;
+  font-size: 45px;
+  text-decoration: underline;
+}
+.yellow {
+  color: #ffa630;
+}
+.section-2 {
+  width: 100%;
+  height: 380px;
+  position: relative;
+  bottom: 32px;
+  background-color: black;
+  display: flex;
+}
+.section-2_content {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 25px;
+  position: relative;
+
+  left: 150px;
+}
+.section-1_links {
+  height: 250px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: relative;
+  top: 30px;
+  left: 455px;
+}
+
+.section-1_links a {
+  color: white;
+  font-family: Inter;
+  font-size: 30px;
+}
+.section-1_links a:hover {
+  color: #ffa630;
+}
+.section_3_education {
+  height: px;
+  width: 100%;
+  background-color: black;
+  position: relative;
+  bottom: 33px;
+}
+.section_3_education h2 {
+  color: #ffa630;
+  text-align: center;
+  font-size: 40px;
+  position: relative;
+  top: 100px;
+}
+.section_3_education {
+  height: 750px; /* Reduce the height to fit within the viewport */
+  width: 100%;
+  background-color: black;
+  position: relative;
+  bottom: 33px;
+  overflow: hidden; /* Hide overflow content if any */
+}
+
+#firstp {
+  position: relative;
+  left: 495px;
+  top: 200px;
+}
+.section_3_education_dates {
+  width: 220px;
+  height: 220px;
+  background-color: #969696;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15%;
+}
+.section_3_education_sub {
+  width: 1000px;
+  height: 270px;
+
+  display: flex;
+  position: relative;
+  left: 140px;
+  top: 230px;
+  justify-content: space-around;
+}
+.second {
+  background-color: #ffa630 !important;
+}
+.section_3_education_dates h3 {
+  font-size: 25px;
+  font-family: Inter;
+}
+.section_3_education_dates p {
+  font-size: 15px;
+  font-family: Inter;
+}
+#h3rd {
+  position: relative;
+  left: 22px;
+}
+.section-3_education_description {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 25px;
+  position: relative;
+
+  left: 150px;
+}
+.section-4 {
+  width: 100%;
+  height: 250px;
+  background-color: black;
+  position: relative;
+  bottom: 33px;
+}
+.section-4_lists {
+  display: flex;
+  color: white;
+  justify-content: space-evenly;
+  font-family: Inter;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.section-3_sports {
+  height: 700px;
+  width: 100%;
+  background-color: black;
+  position: relative;
+  bottom: 33px;
+}
+.section-3_sports_header {
+  height: 50px;
+  width: 300px;
+  position: relative;
+  left: 480px;
+  top: 70px;
+}
+.section-3_sports_header h2 {
+  color: #ffa630;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+.section-3_sports_header p {
+  color: white;
+  font-weight: regular;
+  font-family: Inter;
+  text-align: center;
+}
+.section-3_footbal_info {
+  width: 450px;
+  height: 250px;
+  margin-top: 200px;
+  margin-left: 50px;
+}
+.section-3_footbal_info p {
+  color: #969696;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: regular;
+  margin-top: 10px;
+}
+.section-3_footbal_info h3 {
+  color: white;
+
+  font-size: 40px;
+}
+.section-3_sports_football {
+  display: flex;
+  margin-left: 100px;
+}
+.section-3_sports_football img {
+  margin-top: 100px;
+  margin-left: 130px;
+}
